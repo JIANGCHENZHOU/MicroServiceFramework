@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/business/WorkerThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/business/WorkerThreadPool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/client/NettyClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/client/NettyClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/client/NettyClientInitializer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/msg/CustomDecoder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/msg/CustomEncoder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/msg/CustomMessage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/msg/CustomMessageHeader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/network/NettyServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/network/NettyServerHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cssweb/network/NettyServerInitializer.java" charset="GBK" />
+  </component>
+</project>

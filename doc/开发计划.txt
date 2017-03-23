@@ -1,0 +1,14 @@
+需求
+
+技术选型
+spring + netty + protostuff/kryo + 动态代理/CGLib + etcd/zookeeper
+
+http://www.cnblogs.com/wscit/p/6040823.html
+http://www.cnblogs.com/wscit/p/6055485.html
+https://my.oschina.net/xianggao/blog/634968?fromerr=BQ8ZfVWR
+http://wujiu.iteye.com/blog/2236935
+http://wujiu.iteye.com/blog/2235613
+http://wujiu.iteye.com/blog/2242046
+http://www.cnblogs.com/jietang/p/5675171.html
+http://www.cnblogs.com/jietang/p/5615681.html
+http://www.cnblogs.com/luxiaoxun/p/5272384.html
