@@ -1,0 +1,31 @@
+2017-03-23 23:27:41,656 [nioEventLoopGroup-2-1]  INFO (com.cssweb.client.NettyClientInitializer:19) - initChannel
+2017-03-23 23:27:41,672 [nioEventLoopGroup-2-1]  INFO (com.cssweb.client.NettyClientHandler:32) - channelActive
+2017-03-23 23:27:41,685 [nioEventLoopGroup-3-1]  INFO (com.cssweb.network.NettyServerInitializer:26) - initChannel
+2017-03-23 23:27:42,169 [nioEventLoopGroup-2-1]  INFO (com.cssweb.msg.CustomEncoder:17) - encode
+2017-03-23 23:27:42,191 [nioEventLoopGroup-3-1]  INFO (com.cssweb.msg.CustomDecoder:17) - decode
+2017-03-23 23:27:42,193 [nioEventLoopGroup-3-1]  INFO (com.cssweb.msg.CustomDecoder:36) - 消息内容大小153
+2017-03-23 23:27:42,194 [nioEventLoopGroup-3-1]  INFO (com.cssweb.network.NettyServerHandler:27) - channelRead0
+2017-03-23 23:27:42,275 [nioEventLoopGroup-3-1]  INFO (com.cssweb.msg.CustomEncoder:17) - encode
+2017-03-23 23:27:42,280 [nioEventLoopGroup-2-1]  INFO (com.cssweb.msg.CustomDecoder:17) - decode
+2017-03-23 23:27:42,280 [nioEventLoopGroup-2-1]  INFO (com.cssweb.msg.CustomDecoder:36) - 消息内容大小13
+2017-03-23 23:27:42,280 [nioEventLoopGroup-2-1]  INFO (com.cssweb.client.NettyClientHandler:59) - channelRead0
+2017-03-23 23:27:42,286 [nioEventLoopGroup-2-1]  INFO (com.cssweb.client.NettyClientHandler:64) - 应答消息：Hello chf
+2017-03-23 23:28:53,498 [nioEventLoopGroup-3-1] ERROR (com.cssweb.network.NettyServerHandler:47) - exceptionCaught
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_66]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_66]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_66]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_66]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_66]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.9.Final.jar:4.1.9.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+2017-03-23 23:28:53,511 [nioEventLoopGroup-3-1]  INFO (com.cssweb.network.NettyServerHandler:41) - channelInactive
